@@ -1,5 +1,8 @@
 # Job Offer Scraping tool
 
+### Note:
+To modify the code in order to make it use a different URL (not tried yet), please modify the `driver.get("your url")` parameter. I suggest pasting the URL with already chosen requirements, such as Job Title, Localisation etc.
+
 ## Written in Python 3.10 using Selenium, Pandas and Spacy
 
 This code is designed to scrape job offers from the website [pracuj.pl](https://www.pracuj.pl/) related to Python programming in Warsaw. It utilizes the Selenium WebDriver along with the Chrome browser to navigate the website and extract job details. Here's an overview of the code:
