@@ -5,7 +5,13 @@ To modify the code in order to make it use a different URL (not tried yet), plea
 
 ## Written in Python 3.10 using Selenium, Pandas and Spacy
 
-This code is designed to scrape job offers from the website [pracuj.pl](https://www.pracuj.pl/) related to Python programming in Warsaw. It utilizes the Selenium WebDriver along with the Chrome browser to navigate the website and extract job details. Here's an overview of the code:
+This code is designed to scrape job offers from the website [pracuj.pl](https://www.pracuj.pl/) related to Python programming in Warsaw. It utilizes the Selenium WebDriver along with the Chrome browser to navigate the website and extract job details.
+
+![image](https://github.com/gluchy1/joboffer-scraping-tool/assets/70800019/331cf67e-a110-432d-bbae-b16c38d88225)
+
+![image](https://github.com/gluchy1/joboffer-scraping-tool/assets/70800019/5a4d8fa4-7ee8-495e-a54e-2b2cbf2e5c64)
+
+Here's an overview of the code:  
 
 - The code begins by importing necessary modules: `os`, `webdriver` from Selenium, `BeautifulSoup` from bs4, `pandas`, `spacy`, and `Counter` from collections.
 
