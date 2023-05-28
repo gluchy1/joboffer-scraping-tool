@@ -27,7 +27,7 @@ driver.maximize_window()
 
 driver.get("https://www.pracuj.pl/praca/programista%20python;kw/warszawa;wp?rd=30&et=1%2C17")
 driver.switch_to.window(driver.window_handles[0])
-driver.find_element(By.XPATH, "//button[contains(., 'Akceptuj wszystkie')]").click()
+driver.find_element(By.XPATH, "//button class[contains(., 'Akceptuj wszystkie')]").click()
 
 nlp = spacy.load("en_core_web_sm")
 nlp_pl = spacy.load("pl_core_news_sm")
