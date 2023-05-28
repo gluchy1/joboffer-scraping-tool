@@ -5,7 +5,7 @@ To modify the code in order to make it use a different URL (not tried yet), plea
 
 ## Written in Python 3.10 using Selenium, Pandas and Spacy
 
-This code is designed to scrape job offers from the website [pracuj.pl](https://www.pracuj.pl/) related to Python programming in Warsaw. It utilizes the Selenium WebDriver along with the Chrome browser to navigate the website and extract job details.
+This code is designed to scrape job offers from the website [pracuj.pl](https://www.pracuj.pl/) related to Python programming in Warsaw. It utilizes the Selenium WebDriver along with the Chrome driver to navigate the website and extract job details.
 
 ![image](https://github.com/gluchy1/joboffer-scraping-tool/assets/70800019/331cf67e-a110-432d-bbae-b16c38d88225)
 
