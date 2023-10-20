@@ -13,7 +13,7 @@ import os
 from collections import Counter
 from typing import List
 
-# DS
+# NLP
 import spacy
 
 # BS
