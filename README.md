@@ -14,6 +14,8 @@ To modify the code in order to make it use a different URL just edit config.env,
 
 This is a Python script that automates the task of collecting job offers from a specific website (in this case [pracuj.pl](https://www.pracuj.pl/)). It not only grabs basic details like job titles and company names but also extracts job requirements. All collected information is stored in a MongoDB database.
 
+Get the newest [chromedriver](https://sites.google.com/chromium.org/driver/downloads/) in order to run the chrome webdriver, it is being updated often and the one provided with this repo could be outdated.
+
 After running for a while, it sorts and prints all the reuqirements found, from the most common to the rarest:
 
 
