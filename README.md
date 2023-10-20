@@ -1,9 +1,9 @@
 # Job Offer Scraping tool + MongoDB integration
 
-Using data to find a job is better than browsing through the site, sometimes.
+Manually job hunting on websites may sometimes be boring. Data scraping comes with help.
 
 
-This code is made because I can't find a job, so may this make my work easier at one point.
+I wrote this code because I'm having a tough time landing a job myself. Fingers crossed, this will make things a bit easier down the road.
 
 ![scraper](https://github.com/gluchy1/joboffer-scraping-tool/assets/70800019/f0d990bf-899c-4c87-9af2-442c52d627e7)
 
