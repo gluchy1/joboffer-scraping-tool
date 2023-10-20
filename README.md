@@ -1,5 +1,7 @@
 # Job Offer Scraping tool + MongoDB integration
 
+![scraper](https://github.com/gluchy1/joboffer-scraping-tool/assets/70800019/f0d990bf-899c-4c87-9af2-442c52d627e7)
+
 ### Note:
 To modify the code in order to make it use a different URL just edit config.env, but it is strongly adapted for pracuj.pl site. I suggest pasting the URL with already chosen requirements, such as Job Title, Localisation etc. -> not to over deliver useless data
 
