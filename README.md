@@ -18,7 +18,7 @@ After running for a while, it sorts and prints all the reuqirements found, from 
 Stores the data in MongoDB:
 
 
-![image](https://github.com/gluchy1/joboffer-scraping-tool/assets/70800019/5482eeb8-67de-440b-99b9-690dfd300b68)
+![image](https://github.com/gluchy1/joboffer-scraping-tool/assets/70800019/61aa1948-163b-4133-9a62-f4bf9d737b8f)
 
 
 ## **Libraries Used:**  
