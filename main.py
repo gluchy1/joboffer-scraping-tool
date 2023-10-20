@@ -37,7 +37,6 @@ from dotenv import load_dotenv
 load_dotenv(dotenv_path="config.env")
 
 
-# main class
 def scrape_page(driver: webdriver.Chrome, page_number: int):
     # Get scrape URL from environment variable
     base_url = os.getenv("SCRAPE_URL")
