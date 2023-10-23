@@ -35,11 +35,6 @@ Stores the data in MongoDB:
 - **spaCy:** Looks through the job description to find important keywords.
 - **MongoDB:** This is where we keep all the job data we collect.
 
-### **Some editable variables for future adaptation to other websites**
-
-        job_title = driver.find_element(By.XPATH, "//h1[@data-scroll-id='job-title']").text
-        company_name_element = driver.find_element(By.XPATH, "//h2[@data-scroll-id='employer-name']")
-        company_name = company_name_element.text.split("\n")[0]
-        company_name = company_name.replace("About the company", "").replace("O firmie", "").strip()
+- 
 
 **Note:** Make sure to update the URL and adjust the code if needed to match the target website structure or specific requirements.
