@@ -31,14 +31,10 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
 # .env
-# from dotenv import load_dotenv
-MONGO_URL="mongodb+srv://yourcluster/"
-SCRAPE_URL="https://www.pracuj.pl/praca/programista%20python;kw/warszawa;wp?rd=30&et=1%2C17&page="
-
-
+from dotenv import load_dotenv
 
 # enviromental variable
-# load_dotenv(dotenv_path="config.env")
+load_dotenv(dotenv_path="config.env")
 
 
 def scrape_page(driver: webdriver.Chrome, page_number: int):
