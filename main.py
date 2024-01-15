@@ -177,8 +177,6 @@ class JobScraper:
             print(f'[{requirement}][Amount = {count}]')
 
 
-# used for starting the whole process by initating the JobScraper and then running
-# scrape_and_store(), then prints the requirements.
 if __name__ == "__main__":
     scraper = JobScraper()
     scraper.scrape_and_store()
